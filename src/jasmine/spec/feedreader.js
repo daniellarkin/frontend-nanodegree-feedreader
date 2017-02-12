@@ -72,8 +72,7 @@ $(function() {
 	it('appear when the icon is click and disappears when clicked again', function() {
 	    
 	    $(".menu-icon-link").click();
-	    expect($('body').hasClass('menu-hidden')).toBe(false);
-	    
+	    expect($('body').hasClass('menu-hidden')).toBe(false);	    
 	    $( ".menu-icon-link").click();
 	    expect($('body').hasClass('menu-hidden')).toBe(true);
 	});
