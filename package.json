@@ -1,0 +1,44 @@
+{
+  "name": "frontend-nanodegree-arcade-game",
+  "version": "1.0.0",
+  "description": "UDA FEND arcade game project",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.18.6",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.5.2",
+    "jsdoc": "^3.4.3"
+  },
+  "devDependencies": {
+    "express": "^4.14.0",
+    "gulp-istanbul": "^1.1.1",
+    "gulp-jasmine": "^2.4.2",
+    "gulp-jasmine-browser": "^1.7.1",
+    "gulp-jasmine-phantom": "^3.0.0",
+    "gulp-uglify": "^2.0.1",
+    "jasmine": "^2.5.2",
+    "jasmine-reporters": "^2.2.0",
+    "jasmine-spec-reporter": "^3.2.0",
+    "jsdom": "^9.9.1",
+    "phantom-jasmine": "^0.3.0",
+    "phantomjs": "^2.1.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniellarkin/frontend-nanodegree-arcade-game.git"
+  },
+  "keywords": [
+    "udacity",
+    "resume"
+  ],
+  "author": "Daniel Larkin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniellarkin/frontend-nanodegree-arcade-game/issues"
+  },
+  "homepage": "https://github.com/daniellarkin/frontend-nanodegree-arcade-game#readme"
+}

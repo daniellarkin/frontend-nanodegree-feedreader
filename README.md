@@ -1,6 +1,23 @@
 # Project Overview
 
+* Jasmine specs are located in src/jasmine/specs
+* The default gulp job copies the relevant files from src to dist and then launches a local server at localhost:3000
+* All tests have been observed to fail first and then pass
+
+
+## Jasmine and phantomJS
+* Installed phantomJS; this posed a few problems, since I'm forcing myself to use an Chromebook with an ARM cpu. Therefore I need to compile phantomJS from src for an ARMv7 processor architecture, this itself was straight-forward but I did encounter numerous dependancy issues that took a while to resolve. I needed the following:
+
+sudo apt-get install flex bison gperf ruby perl libsqlite3-dev libfontconfig1-dev libicu-dev libfreetype6 libssl-dev libpng-dev libjpeg-dev python libX11-dev libxext-dev
+
+* Running the tests from the console is still not working (just yet!)
+
+
+
+# DETAIL OF PROJECT AS PROVIDED BY  UDACITY
 In this project you are given a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an application with an incomplete test suite. That's where you come in.
+
+
 
 
 ## Why this Project?
