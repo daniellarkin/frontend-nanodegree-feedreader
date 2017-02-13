@@ -4,6 +4,10 @@
 * The default gulp job copies the relevant files from src to dist and then launches a local server at localhost:3000
 * All tests have been observed to fail first and then pass
 
+## Step-by-step detailed instruction on how to open the app
+1. Clone the project from Github: git clone https://github.com/daniellarkin/frontend-nanodegree-feedreader.git
+2. from the root directory, run npm install
+3. type "gulp" : this runs the default Gulp job which consists of a build task, watch task and a webserver task. The site is then available(served by the Node Express webserver) at localhost:3000 
 
 ## Jasmine and phantomJS
 * Installed phantomJS; this posed a few problems, since I'm forcing myself to use an Chromebook with an ARM cpu. Therefore I need to compile phantomJS from src for an ARMv7 processor architecture, this itself was straight-forward but I did encounter numerous dependancy issues that took a while to resolve. I needed the following:
